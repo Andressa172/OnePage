@@ -7,12 +7,10 @@
   <title>Index - DevFolio Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-
-  <!-- Favicons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -38,82 +36,99 @@
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">DevFolio</h1>
+        <h1><img src="public/Inserir um título.png " class="sitename" style="max-width: 280px; max-height: 100px; overflow: hidden; "></h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <nav id="navmenu" class="navmenu" style="padding: 5px 10px;">
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#curriculo">Currículo</a></li>
+          <li><a href="#certificados">Certificados</a></li>
+          <li><a href="#homenagens">Homenagens</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
     </div>
   </header>
 
   <main class="main">
-
     <!-- Capa Section -->
     <section id="hero" class="hero section dark-background">
-
-      <img src="public/foto-inicial.png" alt="" data-aos="fade-in">
-
+      <img src="public/capaInicial.jpeg" alt="" data-aos="fade-in">
       <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
         <h2>I'm Andressa Diniz</h2>
         <p><span class="typed" data-typed-items="Estagiária em DevOps"></span></p>
       </div>
-
     </section><!-- /Capa Section -->
 
-    
-    <!-- About Section -->
+    <section id="curriculo" class="resume section"><br><br><br><br><br><br>
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Currículo</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Conhecimentos Técnicos</h3>
+            <div class="resume-item pb-0">
+              <ul>
+                <li>Linguagens de Programação: Python, Java, JavaScript, C++, JavaScript, HTML e CSS;</li>
+                <li>Frameworks e Bibliotecas: Bootstrap, Bulma e React;</li>
+                <li>Ferramentas: Docker, Kubernetes, Minikube, Google Cloud, Amazon Web Services, Jenkins e Git;</li>
+                <li>Sistemas Operacionais: Comandos Linux.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+            <h3 class="resume-title">Soft Skills</h3>
+            <div class="resume-item">
+              <li>Trabalho em equipe;</li>
+              <li>Comunicação eficaz;</li>
+              <li>Habilidades interpessoais;</li>
+              <li>Proatividade.</li>
+            </div><!-- Edn Resume Item -->
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Formação Acadêmica</h3>
+            <div class="resume-item">
+              <ul>
+                <li>4º termo Bacharel em Sistemas de Informação.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+            <h3 class="resume-title">Participação em eventos</h3>
+            <div class="resume-item">
+              <ul>
+                <li>TDC Business - São Paulo - 2023;</li>
+                <li>TDC Inteligência Artificial - São Paulo - 2024;</li>
+                <li>DevOps Days - São Paulo - 2024;</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+            <h3 class="resume-title">Idiomas</h3>
+            <div class="resume-item">
+              <ul>
+                <li>Inglês intermediário.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+          </div>
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+    <!-- Campeonato Section -->
     <section id="about" class="about section">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
           <div class="col-md-6">
-
             <div class="row justify-content-between gy-4">
               <div>
                 <img src="public/robo-obr.png" class="img-fluid" alt="Descrição da Imagem" style="width: 75%; height: auto;">
               </div>
-              
             </div>
-
             <div class="skills-content skills-animation">
-
             </div>
           </div>
-
           <div class="col-md-6">
             <div class="about-me">
-              <h4>Campeonatos</h4>
+              <h4 style="color: white;">Campeonatos</h4>
               <p>
                 Dês dos 12 anos, do 6º ano do Ensino Fundamental ao 3º ano do Ensino Médio participou de campeonatos e olimpíadas de robótica, como a First Lego League (FLL), World Robot Olympiad (WRO) e Olimpíada Brasileira de Robótica (OBR) a nível regional, estadual e nacional.
               </p>
@@ -123,15 +138,11 @@
             </div>
           </div>
         </div>
-
       </div>
-
     </section>
 
     <section id="about" class="about section">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
           <div class="col-md-6">
             <div class="row justify-content-between gy-4">
@@ -143,33 +154,29 @@
             <div class="skills-content skills-animation">
             </div>
           </div>
-
           <div class="col-md-6">
             <div class="about-me">
-              <h4>Olimpíadas</h4>
+              <h4 style="color: white;">Olimpíadas</h4>
               <p>
                 Participou também da MOBFOG, Mostra Brasileira de Foguetes, onde ganhou medalha prata em 2021, e ouro em 2022.</p>
-                <a target="_blank" class="btn btn-primary" href="https://www.imparcial.com.br/noticias/aluna-do-sesi-foi-medalha-de-prata-na-mostra-brasileira-de-foguetes,46726#google_vignette" role="button">Link da matéria</a>
+                <a target="_blank" class="btn btn-outline-warning" href="https://www.imparcial.com.br/noticias/aluna-do-sesi-foi-medalha-de-prata-na-mostra-brasileira-de-foguetes,46726#google_vignette" role="button">Link da matéria</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    
-
     <section id="stats" class="stats section accent-background">
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+      <img src="public/mic.png" alt="" data-aos="fade-in" style="width: auto;">
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
           <div>
             <div class="stats-item text-center">
-              <h3>"Com a tecnologia, percebo que temos a capacidade de desenvolver projetos capazes de causar um impacto positivo e transformador na vida das 
-                pessoas. Isso abrange não apenas o ambiente de trabalho, mas também áreas essenciais como educação, saúde, meio ambiente e muitas outras".</h3>
+              <h3>"Com a tecnologia, podemos transformar vidas ao ampliar a acessibilidade e criar um mundo mais inclusivo. Nossas inovações também têm o poder de impactar positivamente áreas essenciais como educação, saúde e meio ambiente, 
+                gerando mudanças significativas e promovendo um futuro melhor para todos." - Andressa Diniz</h3>
               
             </div>
-          </div><!-- End Stats Item -->
+          </div>
         </div>
       </div>
     </section>
@@ -181,14 +188,65 @@
       <div class="row">
           <img src="./public/tv4.png"></div>
     </div>
+    <div class="portfolio-content">
+      <div class="row">
+        <img src="./public/campeonato2.png" style="width: 910px; height: auto;"></div>
+      <div class="row">
+        <img src="./public/campeonato1.png" style="width: 900px; height: auto;"></div>
+      <div class="row">
+          <img src="./public/tvv2.png"></div>
+    </div><br><br><br><br><br>
+
+    <!-- Senai Section -->
+    <section id="services" class="services section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projeto Técnico em Química - SENAI</h2>
+        <p>Durante o curso Técnico em Química no SENAI, criou um titulador automático para melhorar a precisão na titulação química. 
+          Utilizando peças Arduino e um sensor RGB, o sistema detecta a mudança de cor que indica o término da reação. Foi adicionado 
+          um agitador automático feito com uma ventoinha reciclada e um servomotor para controlar a dosagem do titulante. 
+          Este projeto destaca a integração de tecnologia com práticas químicas, promovendo eficiência e sustentabilidade.
+        </p>
+        <br><br>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="public/project5.jpg" class="service-item" style="width: 350px; height: auto;">
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="public/projectCopoGIF.gif" class="service-item" style="width: 320px; height: auto;">
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <img src="public/project1.jpg" class="service-item" style="width: 350px; height: auto;">
+          </div><!-- End Service Item -->
+        </div><br><br>
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="public/project4.jpg" class="service-item" style="width: 350px; height: auto;">
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="public/projectGIF.gif" class="service-item" style="width: 320px; height: auto;">
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <img src="public/project2.jpg" class="service-item" style="width: 350px; height: auto;">
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- /Senai Section -->
 
     <!-- Certificado Section -->
-    <section class="portfolio section">
+    <section id="certificados" class="portfolio section">
       <br><br><br>
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Certificados</h2>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
@@ -200,8 +258,7 @@
               <div class="portfolio-info">
                 <h4>Information Security: Context and Introduction</h4>
                 <p>University of London</p>
-                <a href="public/certif1.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="public/certif1.png" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -210,8 +267,7 @@
               <div class="portfolio-info">
                 <h4>Termodinâmica Estatística: Dinâmica Molecular</h4>
                 <p>University of Minnesota</p>
-                <a href="public/certif2.png" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="public/certif2.png" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -220,8 +276,7 @@
               <div class="portfolio-info">
                 <h4>Introdução ao Controle de Sistemas</h4>
                 <p>Instituto Tecnológico de Aeronáutica</p>
-                <a href="public/certif3.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="public/certif3.png" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -230,8 +285,7 @@
               <div class="portfolio-info">
                 <h4>Spring Boot 3: Develop a Rest API in Java</h4>
                 <p>Alura</p>
-                <a href="public/spring_boot.png" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="public/spring_boot.png" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div>
 
@@ -240,8 +294,7 @@
               <div class="portfolio-info">
                 <h4>Monitoring and Observability for Development and DevOps</h4>
                 <p>IBM</p>
-                <a href="public/Captura de tela de 2024-08-23 00-21-18.png" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="public/Captura de tela de 2024-08-23 00-21-18.png" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
@@ -249,8 +302,7 @@
               <div class="portfolio-info">
                 <h4>Integrate Java Applications with Database</h4>
                 <p>Alura</p>
-                <a href="public/bd_java.png" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="public/bd_java.png" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
           </div><!-- End Portfolio Container -->
@@ -265,7 +317,7 @@
           <div class="col-md-6">
             <div class="row justify-content-between gy-4">
               <div>
-                <img src="public/image-4@2x.png" class="img-fluid" alt="Descrição da Imagem" style="width: 60%; height: auto;">
+                <img src="public/vericode.png" class="img-fluid" alt="Descrição da Imagem" style="width: 90%; height: auto;">
               </div>
             </div>
             <div class="skills-content skills-animation">
@@ -273,26 +325,49 @@
           </div>
           <div class="col-md-6">
             <div class="about-me">
-              <h4>Estágio</h4>
+              <h4 style="color: white;">Estágio</h4>
               <p>
                 Desde maio de 2023, realiza estágio na empresa Vericode. Uma empresa em que o principal objetivo reside na sua capacidade de oferecer aos 
                 clientes uma solução perfeitamente alinhada com as exigências do seu negócio, juntamente com requisitos tecnológicos de alto desempenho especialmente 
                 adaptados para os setores financeiro e de varejo.
               </p>
-              <a target="_blank" class="btn btn-primary" href="https://www.unoeste.br/noticias/2023/5/talentos-da-fipp-agrada-e-empresa-recruta-novos-estagiarios" role="button">Link da matéria</a>
+              <a target="_blank" class="btn btn-outline-warning" href="https://www.unoeste.br/noticias/2023/5/talentos-da-fipp-agrada-e-empresa-recruta-novos-estagiarios" role="button">Link da matéria</a>
               <br><br><br><br>
               <p>
                 Na Vericode, atua como <b>DevOps</b>, usando Jenkins, Docker, Kubernetes, ArgoCD, GitLab, Terraform, Google Cloud, Amazon Web Services, com o objetivo de facilitar 
                 a colaboração entre equipes de desenvolvimento e operações, automatizar processos de entrega de software, gerenciar infraestrutura como código e garantir
                 a estabilidade e escalabilidade de sistemas. 
               </p>
-              <a target="_blank" class="btn btn-primary" href="https://www.unoeste.br/noticias/2023/5/talentos-da-fipp-agrada-e-empresa-recruta-novos-estagiarios" role="button">O que é DevOps?</a>
+              <a target="_blank" class="btn btn-outline-warning" href="https://www.redhat.com/pt-br/topics/devops" role="button">O que é DevOps?</a>
             </div>
           </div>
         </div>
       </div>
     </section><!--Estágio Section-->
 
+    <!-- INFOESTE Section -->
+    <section id="services" class="services section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Semana de Computação e Informática - INFOESTE - FIPP</h2>
+        <p>Ministrou os cursos "09º FIPPETEC Curso de Python", "Introdução à Programação em Python" e "Arduino e Tinkercad: Dominando a Eletrônica Simulada".
+        </p>
+        <br><br>
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="public/tinkercad2.png" class="service-item" style="width: 350px; height: auto;">
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="public/python.jpeg" class="service-item" style="width: 320px; height: auto;">
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <img src="public/tinkercad.jpeg" class="service-item" style="width: 350px; height: auto;">
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- /INFOESTE Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -308,20 +383,18 @@
         </p>
         <h2><br><br>
           Por fazer parte deste Comitê Internacional, recebeu um convite para estar palestrando na Convenção Internacional do Rotary International, que ocorreu no dia 29 a 31 de Maio de 2023, 
-          em Melbourne, Australia.
+          em Melbourne, na Austrália.
         </h2>
-        <a target="_blank" class="btn btn-primary" href="https://www.imparcial.com.br/noticias/jovem-lideranca-de-prudente-quer-palestrar-na-australia,56281" role="button">Link da matéria</a>
+        <a target="_blank" class="btn btn-outline-warning" href="https://www.imparcial.com.br/noticias/jovem-lideranca-de-prudente-quer-palestrar-na-australia,56281" role="button">Link da matéria</a>
       </div><!-- End Section Title -->
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <img src="public/redbanner.png" class="service-item" style="height: auto;">
           </div><!-- End Service Item -->
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <img src="public/fotoServicesSection.jpg" class="service-item">
           </div><!-- End Service Item -->
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <img src="public/zoom.png" class="service-item" style="height: auto;">
           </div><!-- End Service Item -->
@@ -329,34 +402,56 @@
       </div>
     </section><!-- /Services Section -->
 
-    <!-- Services Section -->
+    <!-- Livro Section -->
+    <section id="services" class="services section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Livro Caçador de Poetas</h2>
+        <p>Em 2019, teve participação na 3º Edição do “Caçador de Poetas”, do Mário Milani, realizando ilustrações. O dinheiro arrecadado com as vendas dos 
+          livros é destinado para causas humanitárias.
+        </p>
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="public/livro.png" class="service-item" style="width: 370px; height: auto;">
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <img src="public/livroCapa.png" class="service-item" style="width: 350px; height: auto;">
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <img src="public/assinando.png" class="service-item" style="width: 200px; height: auto;">
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+    </section><!-- /Livro Section -->
+
+    <!-- SP Section -->
     <section id="services" class="services section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Membro de grupo de trabalho, vinculado ao Conselho Estadual da Juventude do Governo do Estado de São Paulo</h2>
         <br><br>
-        <a target="_blank" class="btn btn-primary" href="https://www.imparcial.com.br/noticias/andressa-diniz-toma-posse-em-grupo-de-trabalho-estadual,58563" role="button">Link da matéria</a>
+        <a target="_blank" class="btn btn-outline-warning" href="https://www.imparcial.com.br/noticias/andressa-diniz-toma-posse-em-grupo-de-trabalho-estadual,58563" role="button">Link da matéria</a>
       </div><!-- End Section Title -->
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="width: 60%; height: auto;">
-            <img src="public/sp1.jpeg" class="service-item" style="height:645px">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="width: auto; height: auto;">
+            <!--<img src="public/sp1.jpeg" class="service-item" style="height:645px">style="width: 910px; height: auto;"-->
+            <img src="public/sp1.jpeg" class="service-item" style="width: 630px; height: auto;">
           </div><!-- End Service Item -->
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" style="width: 40%; height: auto;">
-            <h4>Revista CHIC</h4>
+            <h4><b>Revista CHIC</b></h4>
             <p>Coluna Business</p>
-            <img src="public/revista.png" class="service-item" style="height:645px">
-            
+            <img src="public/revista.png" class="service-item" style="width: 450px; height: auto;">
+            <!--<img src="public/revista.png" class="service-item" style="height:645px">-->
           </div><!-- End Service Item -->
-
-          
         </div>
       </div>
-    </section><!-- /Services Section -->
+    </section><!-- /SP Section -->
 
     <!-- Homenagens Section -->
-    <section id="services" class="services section">
+    <section id="homenagens" class="services section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Homenagens</h2>
@@ -384,628 +479,52 @@
       </div>
     </section><!-- /Homenagens Section -->
 
-
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Currículo</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Conhecimentos Técnicos</h3>
-            <div class="resume-item pb-0">
-              <ul>
-                <li>Linguagens de Programação: Python, Java, JavaScript, C++, JavaScript, HTML e CSS;</li>
-                <li>Frameworks e Bibliotecas: Bootstrap, Bulma e React;</li>
-                <li>Ferramentas: Docker, Kubernetes, Minikube, Google Cloud, Amazon Web Services, Jenkins e Git;</li>
-                <li>Sistemas Operacionais: Comandos Linux;</li>
-                <li>Frameworks e Bibliotecas: Bootstrap, Bulma e React.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Soft Skills</h3>
-            <div class="resume-item">
-              <li>Trabalho em equipe;</li>
-              <li>Comunicação eficaz;</li>
-              <li>Habilidades interpessoais;</li>
-              <li>Proatividade.</li>
-            </div><!-- Edn Resume Item -->
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Participação em eventos</h3>
-            <div class="resume-item">
-              <ul>
-                <li>TDC Business - São Paulo - 2023;</li>
-                <li>TDC Inteligência Artificial - São Paulo - 2024;</li>
-                <li>DevOps Days - São Paulo - 2024;</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-          </div>
-          
-        </div>
-      </div>
-
-    </section><!-- /Resume Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
-              </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Eosle Commodi</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Ledo Markt</h3>
-              </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Dolori Architecto</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section accent-background">
-
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
-              <p>Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="0" class="purecounter">521</span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter">1453</span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0" class="purecounter">32</span>
-              <p>Awards</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 2</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Books 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 gx-lg-5">
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Portrait Photography</h3>
-              <h4>$160.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Fashion Photography</h3>
-              <h4>$300.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Sports Photography</h3>
-              <h4>$200.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Still Life Photography</h3>
-              <h4>$120.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Wedding Photography</h3>
-              <h4>$500.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-6">
-            <div class="pricing-item d-flex justify-content-between">
-              <h3>Photojournalism</h3>
-              <h4>$200.00</h4>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="content px-xl-5">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="faq-container">
-              <div class="faq-item faq-active">
-                <h3><span class="num">1.</span> <span>Non consectetur a erat nam at lectus urna duis?</span></h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">2.</span> <span>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span></h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">3.</span> <span>Dolor sit amet consectetur adipiscing elit pellentesque?</span></h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">4.</span> <span>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span></h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span></h3>
-                <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Faq Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section accent-background">
-
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
+    <section id="contato" class="contact section">
+    <div class="box">
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <div class="container section-title" data-aos="fade-up"><br><br>
+        <h2 style="color: white;">Contato</h2>
+        <h5  style="color: white;">Estou disponível para discutir oportunidades, projetos e colaborações na área de DevOps. Se você tiver alguma dúvida ou desejar conversar sobre como posso contribuir com sua equipe, não hesite em me contatar.</h5>
       </div><!-- End Section Title -->
-
+        
+          <div class="s-icons" style="color: white; text-align: center;">
+            <i class='bx bx-code-alt'></i>
+            <i class='bx bxl-docker' ></i>
+            <i class='bx bxl-kubernetes' ></i>
+            <i class='bx bxl-google-cloud'></i>
+            <i class='bx bxl-aws'></i>
+            <i class='bx bxs-terminal' ></i>
+            <i class='bx bxl-github'></i>
+            <i class='bx bxl-gitlab'></i>
+          </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
           <div class="row gy-5">
-
             <div class="col-lg-4">
               <div class="info-item d-flex align-items-center">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h3>Endereço</h3>
+                  <p>Presidente Prudente, São Paulo - Brasil</p>
                 </div>
               </div>
             </div><!-- End Info Item -->
-
             <div class="col-lg-4">
               <div class="info-item d-flex align-items-center">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                  <h3>Telefone</h3>
+                  <p>(18) 99104-1948</p>
                 </div>
               </div>
             </div><!-- End Info Item -->
-
             <div class="col-lg-4">
               <div class="info-item d-flex align-items-center">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <h3>Email</h3>
+                  <p>andressa.dinizff@gmail.com</p>
                 </div>
               </div>
             </div><!-- End Info Item -->
@@ -1015,61 +534,45 @@
 
         <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
           <div class="row gy-4">
-
             <div class="col-md-6">
               <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
             </div>
-
             <div class="col-md-6 ">
               <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
             </div>
-
             <div class="col-md-12">
               <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
             </div>
-
             <div class="col-md-12">
               <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
             </div>
-
             <div class="col-md-12 text-center">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
+              <div class="sent-message">Sua mensagem foi enviada. Obrigada!</div>
+              <button type="submit">Envie sua mensagem</button>
             </div>
-
           </div>
         </form><!-- End Contact Form -->
-
       </div>
-
+    </div>
     </section><!-- /Contact Section -->
 
   </main>
-
   <footer id="footer" class="footer accent-background">
-
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevFolio</strong> <span>All Rights Reserved</span></p>
-      </div>
+      
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/Andressa172"><i class="bi bi-github"></i></a>
+        <a target="_blank" href="http://lattes.cnpq.br/2074328279433602"><i class="bi bi-columns"></i></a>
+        <a target="_blank" href="https://www.facebook.com/andressa.felisbertoferreiradiniz.3"><i class="bi bi-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/andressaf.fdiniz/"><i class="bi bi-instagram"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/andressaffdiniz/"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -1092,7 +595,5 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
